@@ -1,6 +1,7 @@
 ![PyPI](https://img.shields.io/pypi/v/bbrf?style=flat-square)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/bbrf?style=flat-square)
-[![Mastodon](https://img.shields.io/mastodon/follow/108729222194496362?domain=https%3A%2F%2Fmastodon.social&style=flat-square)](https://mastodon.social/@honoki)
+[![Mastodon](https://img.shields.io/mastodon/follow/110779442452085429?domain=https%3A%2F%2Finfosec.exchange&style=flat-square&logo=mastodon&logoColor=fff)](https://infosec.exchange/@honoki)
+[![BlueSky](https://img.shields.io/badge/@honoki.net-0285FA?logo=bluesky&logoColor=fff&style=flat-square)](https://bsky.app/profile/honoki.net)
 
 ## Introduction
 
@@ -353,3 +354,10 @@ Get the proxy settings of a program with `bbrf proxy -p my_hackerone_program`. F
 # note that the use of double quotes will allow this to work even if no proxy is configured for the current program
 curl -x "$(bbrf proxy)" ifconfig.co
 ```
+
+## See also
+
+* [BBRF Server](https://github.com/honoki/bbrf-server)
+* [BBRF Dashboard](https://github.com/honoki/bbrf-dashboard)
+* [BBRF Burp Plugin](https://github.com/honoki/bbrf-burp-plugin)
+* [BBRF Agents](https://github.com/honoki/bbrf-agents)
